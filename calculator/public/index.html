@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="calculator">
+      <div class="display">
+        <input class="output" type="text" id="output" value="0" readonly="readonly">
+        <input type="hidden" id="input1" readonly="readonly">
+        <input type="hidden" id="input2" readonly="readonly">
+        <input type="hidden" id="operator" readonly="readonly">
+      </div>
+      <div class="button_disp">
+        <div class="row">
+          <button class="button" onclick="all_clear()">AC</button>
+          <button class="button" onclick="disp_clear()">C</button>
+          <button class="button" onclick="back()">DEL</button>
+          <button class="button" onclick="get_operator('/')">/</button>
+        </div>
+        <div class="row">
+          <button class="button" onclick="get_operand(7)">7</button>
+          <button class="button" onclick="get_operand(8)">8</button>
+          <button class="button" onclick="get_operand(9)">9</button>
+          <button class="button" onclick="get_operator('*')">*</button>
+        </div>
+        <div class="row">
+          <button class="button" onclick="get_operand(4)">4</button>
+          <button class="button" onclick="get_operand(5)">5</button>
+          <button class="button" onclick="get_operand(6)">6</button>
+          <button class="button" onclick="get_operator('-')">-</button>
+        </div>
+        <div class="row">
+          <button class="button" onclick="get_operand(1)">1</button>
+          <button class="button" onclick="get_operand(2)">2</button>
+          <button class="button" onclick="get_operand(3)">3</button>
+          <button class="button" onclick="get_operator('+')">+</button>
+        </div>
+        <div class="row">
+          <button class="button" onclick="negative()">+/-</button>
+          <button class="button" onclick="get_operand(0)">0</button>
+          <button class="button" onclick="decimal()">.</button>
+          <button class="button" onclick="solve()">=</button>
+        </div>
+      </div>
+    </div>
+
+  <script src="functions.js" type="text/javascript"></script>
+
+  </body>
+</html>

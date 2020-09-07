@@ -1,0 +1,55 @@
+.button {
+  height: 100%;
+  width: 25%;
+  font-size: 32px;
+  float: left;
+}
+
+.button_disp {
+  height: 305px;
+  width: 100%-10px;
+  position: relative;
+  background-color: #666666;
+  padding-top: 0px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.calculator {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  background-color: #000000;
+  overflow-x: hidden;
+  border: 1px solid black;
+}
+
+.display {
+  height: 80px;
+  width: 100%-10px;
+  position: relative;
+  background-color: #666666;
+  padding-top: 0px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.output {
+  width: 285px;
+  height: 75px;
+  background-color: transparent;
+  border-color: transparent;
+  text-align: right;
+  font-size: 72px;
+}
+
+.row {
+  height: 20%;
+  width: 100%;
+  background-color: #189232;
+}
